@@ -17,14 +17,18 @@ namespace RevitPlugin
         {
             try
             {
-                // current doc
+                // current document 
                 Document document = commandData.Application.ActiveUIDocument.Document;
+
+                Viewer viewer = new Viewer(document);
+                viewer.ShowDialog();
 
                 return Result.Succeeded;
             }
 
             catch (Exception ex)
             {
+                // log ex
                 return Result.Failed;
             }
         }
