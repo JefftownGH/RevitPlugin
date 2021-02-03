@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>RevitPlugin</Name>
+    <Assembly>RevitPlugin.dll</Assembly>
+    <AddInId>ACC1DA17-A0D2-4034-802C-18A2922C24D4</AddInId>
+    <FullClassName>RevitPlugin.ViewAndFilterElements</FullClassName>
+    <Text>View and filter elements</Text>
+    <Description>Display elements in gridview, and filter</Description>
+    <VendorId>Gani</VendorId>
+    <VendorDescription>@Gani</VendorDescription>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
